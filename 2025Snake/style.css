@@ -1,0 +1,80 @@
+/*
+    2025 Snake Theme
+    [2025 Wikidot Theme]
+    by Afulai2333
+    based on Super Liminal Theme
+*/
+
+/* Super Liminal */
+@import url("https://github.backroomswiki.cn/Super_Liminal/css/basic-styles.css");
+@import url("https://github.backroomswiki.cn/Super_Liminal/css/super-liminal.css");
+
+:root {
+    --header-title: "The Mildrooms";
+    --header-subtitle: "繁忙与欢庆";
+    --logo-image: url("https://afulai2333.wikidot.com/local--files/theme:snake-2025/logo.png");
+    --background-color: 231, 229, 208;
+    --text-color: 0, 0, 0;
+    --light-color-2: 244, 215, 180;
+    --dark-color-1: 174, 80, 107;
+    --dark-color-2: var(--dark-color-1);
+    --dark-color-3: 164, 65, 79;
+    --dark-color-4: 99, 7, 28;
+    --header-username-color: var(--light-color-1);
+    --note-background-color: 239, 228, 82;
+    --note-border-color: var(--dark-color-4);
+    --link-color: var(--dark-color-1);
+    --hover-link-color: var(--dark-color-3);
+    --visited-link-color: var(--dark-color-2);
+    --newpage-color: 8, 68, 149;
+    --selected-background-color: var(--dark-color-4);
+    --selected-text-color: var(--light-color-1);
+    --note-text-color: var(--text-color);
+    --h1-color: var(--dark-color-3);
+    --h2-color: var(--dark-color-3);
+    --h3-color: var(--dark-color-3);
+    --h4-color: var(--dark-color-3);
+    --h5-color: var(--dark-color-3);
+    --h6-color: var(--dark-color-3);
+    --header-extra-background-image: url('https://afulai2333.wikidot.com/local--files/theme:snake-2025/background.png');
+    --page-title-text-color: var(--dark-color-4);
+}
+
+div.warning-top-box,
+div.warning-top-box * {
+    display: none;
+}
+
+div.page-source {
+    border: rgb(var(--dark-color-4)) dashed 0.15rem;
+}
+
+div#header:before {
+    background: var(--header-extra-background-image);
+    background-size: 6em;
+    height: var(--header-height);
+}
+
+#side-bar .heading,
+#side-bar .collapsible-block-unfolded-link a,
+#side-bar .collapsible-block-folded a,
+#content-wrap,
+.yui-navset .yui-nav li:is(:hover, :active, :focus, :focus-within),
+.yui-navset .yui-nav li.selected,
+div.modalbox>div:first-child,
+div.infobox-title,
+.code,
+#lock-info,
+#footer,
+div[id*=page-options-bottom]>a,
+div[id*=page-options-bottom]>a:is(:hover, :active),
+blockquote,
+.blockquote,
+.lightblock,
+.darkblock,
+.dark-styled-quote,
+.styled-quote,
+div.wiki-note {
+    background-image: var(--header-extra-background-image);
+    background-size: 6em;
+}
