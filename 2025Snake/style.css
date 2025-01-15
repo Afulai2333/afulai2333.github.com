@@ -12,7 +12,7 @@
 :root {
     --header-title: "The Mildrooms";
     --header-subtitle: "繁忙与欢庆";
-    --logo-image: url("https://afulai2333.wikidot.com/local--files/theme:snake-2025/logo.png");
+    --logo-image: url("./logo.png");
     --background-color: 231, 229, 208;
     --text-color: 0, 0, 0;
     --light-color-2: 244, 215, 180;
@@ -36,7 +36,7 @@
     --h4-color: var(--dark-color-3);
     --h5-color: var(--dark-color-3);
     --h6-color: var(--dark-color-3);
-    --header-extra-background-image: url('https://afulai2333.wikidot.com/local--files/theme:snake-2025/background.png');
+    --header-extra-background-image: url('./background.png');
     --page-title-text-color: var(--dark-color-4);
 }
 
