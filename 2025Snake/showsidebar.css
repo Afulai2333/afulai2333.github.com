@@ -1,0 +1,50 @@
+:root {
+    --body-margin: max(calc((100% + var(--sidebar-width) - var(--body-width)) / 2), 1rem);
+}
+
+#content-wrap {
+    display: grid;
+    grid-template-columns: var(--sidebar-width) 1fr;
+}
+
+#main-content {
+    margin: 2rem var(--body-margin) 0 max(calc(var(--body-margin) - var(--sidebar-width)), 1rem);
+}
+
+#side-bar {
+    left: 0;
+    top: 0;
+    position: sticky;
+    z-index: 3;
+}
+
+#side-bar::before,
+#side-bar::after {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    :root {
+        --body-margin: max(calc((100% - var(--body-width)) / 2), 1rem);
+    }
+
+    #side-bar,
+    #side-bar:is(:hover, :focus-within):not(:target) {
+        left: calc(var(--sidebar-width) * -1);
+        z-index: 9;
+        position: fixed;
+    }
+
+    #content-wrap {
+        display: block;
+    }
+
+    #main-content {
+        margin: 2rem var(--body-margin);
+    }
+
+    #side-bar::before,
+    #side-bar::after {
+        display: none;
+    }
+}
