@@ -13,13 +13,13 @@
     --header-title: "The Mildrooms";
     --header-subtitle: "繁忙与欢庆";
     --logo-image: url("./logo.png");
-    --background-color: 231, 229, 208;
+    --background-color: 240, 235, 213;
     --text-color: 0, 0, 0;
     --light-color-2: 244, 215, 180;
-    --dark-color-1: 174, 80, 107;
+    --dark-color-1: 230, 0, 92;
     --dark-color-2: var(--dark-color-1);
-    --dark-color-3: 164, 65, 79;
-    --dark-color-4: 99, 7, 28;
+    --dark-color-3: 207, 23, 97;
+    --dark-color-4: 166, 18, 77;
     --header-username-color: var(--light-color-1);
     --note-background-color: 239, 228, 82;
     --note-border-color: var(--dark-color-4);
