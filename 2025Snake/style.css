@@ -74,7 +74,8 @@ blockquote,
 .darkblock,
 .dark-styled-quote,
 .styled-quote,
-div.wiki-note {
+div.wiki-note,
+table.wiki-content-table th {
     background-image: var(--header-extra-background-image);
     background-size: 6em;
 }
