@@ -79,3 +79,8 @@ table.wiki-content-table th {
     background-image: var(--header-extra-background-image);
     background-size: 6em;
 }
+
+.darkblock a,
+.dark-styled-quote a {
+    color: rgb(var(--light-color-2));
+}
